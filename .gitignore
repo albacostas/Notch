@@ -1,0 +1,24 @@
+# --- Secretos (¡Lo más importante!) ---
+# Ignora el archivo donde guardas el Client ID y Secret
+notch/Secrets.plist
+
+# --- Xcode ---
+# Ignora configuraciones personales (el historial de búsqueda, estado de la UI)
+xcuserdata/
+*.xcuserdata
+*.xcuserstate
+project.xcworkspace/
+!project.xcworkspace/contents.xcworkspacedata
+
+# --- macOS ---
+# Ignora archivos del sistema como iconos de carpeta o basura
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Build & Swift Package Manager ---
+# Ignora los binarios compilados y dependencias descargadas
+build/
+DerivedData/
+.swiftpm/
+.build/
